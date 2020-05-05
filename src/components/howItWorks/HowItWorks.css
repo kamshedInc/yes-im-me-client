@@ -1,0 +1,194 @@
+#how-it-works-section {
+  position: relative;
+  height: 1200vh;
+}
+
+.how-it-works-container {
+  position: static;
+}
+
+.howItWorksBackground {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.howItWorksBackground .clipPathRect {
+  position: absolute;
+}
+
+/* ---------- How It Works Background ---------- */
+.backgroundContainer {
+  position: fixed;
+  top: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+}
+
+.backgroundContainer .background {
+  height: 100vh;
+  position: relative;
+}
+
+.backgroundContainer .wht {
+  width: 0vw;
+  -webkit-box-shadow: 10px 0px 130px 90px white;
+          box-shadow: 10px 0px 130px 90px white;
+}
+
+.backgroundContainer .prime1 {
+  width: 0vw;
+  z-index: 1;
+}
+
+.wht {
+  background-color: white;
+}
+
+.prime1 {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#22916f), to(#327796));
+  background-image: linear-gradient(to bottom right, #22916f, #327796);
+}
+
+/* ---------- How It Works Images ---------- */
+.imageContainer {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+}
+
+.imageContainer.transition {
+  top: 265vh;
+}
+
+.socialMediaContainer {
+  position: fixed;
+  top: 50vh;
+  width: 600px;
+  height: 600px;
+  left: 20vw;
+  opacity: 0;
+}
+
+.socialMediaContainer.transition {
+  position: absolute;
+  top: 200vh;
+}
+
+.howItWorksImage {
+  position: absolute;
+  background-size: cover;
+  background-blend-mode: luminosity;
+}
+
+.howItWorksImage.socialMedia {
+  background-image: url(./howItWorksImages/socialMedia_20.jpg);
+  top: 50vh;
+  width: 450px;
+  height: 450px;
+  -webkit-box-shadow: 0px 0px 50px -20px;
+          box-shadow: 0px 0px 50px -20px;
+}
+
+.imageContainer2 {
+  position: fixed;
+  top: 110vh;
+  left: 60vw;
+  width: 40vw;
+  height: 100%;
+}
+
+.iconContainer {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.iconContainer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30%;
+}
+
+.iconContainer .socialMediaIcon {
+  display: block;
+  -webkit-transform: scale(3);
+          transform: scale(3);
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+.iconContainer .socialMediaIcon.inView {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+}
+
+.iconContainer .facts {
+  padding: 0% 5%;
+}
+
+/* ---------- How It Works Content ---------- */
+.contentContainer1 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 40%;
+}
+
+.contentContainer1.transition {
+  z-index: -1;
+}
+
+.contentContainer1 .content1 {
+  width: 600px;
+  right: -20vw;
+  top: 0vh;
+  font-size: 3rem;
+  font-weight: 600;
+  mix-blend-mode: lighten;
+  opacity: 0;
+}
+
+.contentContainer1 .content2 {
+  width: 600px;
+  left: 100vw;
+  top: 0vh;
+  font-size: 1.5rem;
+  opacity: 0;
+}
+
+.content, .contentWrapper {
+  position: relative;
+}
+
+.contentContainer2 {
+  position: fixed;
+  top: 0vh;
+  width: 60vw;
+  height: 100%;
+}
+
+.contentContainer2 .contentWrapper {
+  top: 50vh;
+  width: 500px;
+  margin: auto;
+}
+
+.contentContainer2 .content {
+  color: white;
+  font-size: 1.5rem;
+  opacity: 0;
+  bottom: -20vh;
+}
+/*# sourceMappingURL=HowItWorks.css.map */

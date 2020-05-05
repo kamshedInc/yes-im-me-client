@@ -1,0 +1,161 @@
+#home-section {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+h1.header {
+  color: white;
+  text-align: center;
+}
+
+.subheader {
+  font-size: 1.1rem;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+}
+
+header.homeHeader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 500px;
+}
+
+/* Animated Cursor */
+.homeheaderName > .txt {
+  border-right: 0.15rem solid #b1b1b1;
+}
+
+.arrowDown {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0.5;
+  fill-opacity: 0;
+  -webkit-animation: bounce 3s 2s infinite both, appear 3.72s ease-out;
+          animation: bounce 3s 2s infinite both, appear 3.72s ease-out;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  cursor: pointer;
+}
+
+.arrowDown:hover {
+  opacity: 1;
+  stop-opacity: 0;
+  fill-opacity: 1;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+@-webkit-keyframes appear {
+  0% {
+    opacity: 0;
+    top: 50%;
+  }
+  90% {
+    opacity: 0;
+    top: 50%;
+  }
+  100% {
+    opacity: 0.15;
+    top: 70%;
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    top: 50%;
+  }
+  90% {
+    opacity: 0;
+    top: 50%;
+  }
+  100% {
+    opacity: 0.15;
+    top: 70%;
+  }
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    top: 70%;
+  }
+  50% {
+    top: 70%;
+  }
+  60% {
+    top: 71%;
+  }
+  65% {
+    top: 69.5%;
+  }
+  69% {
+    top: 70.7%;
+  }
+  73% {
+    top: 69.8%;
+  }
+  76% {
+    top: 70.2%;
+  }
+  79% {
+    top: 70%;
+  }
+  81% {
+    top: 70.1%;
+  }
+  82% {
+    top: 70%;
+  }
+  100% {
+    top: 70%;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    top: 70%;
+  }
+  50% {
+    top: 70%;
+  }
+  60% {
+    top: 71%;
+  }
+  65% {
+    top: 69.5%;
+  }
+  69% {
+    top: 70.7%;
+  }
+  73% {
+    top: 69.8%;
+  }
+  76% {
+    top: 70.2%;
+  }
+  79% {
+    top: 70%;
+  }
+  81% {
+    top: 70.1%;
+  }
+  82% {
+    top: 70%;
+  }
+  100% {
+    top: 70%;
+  }
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+/*# sourceMappingURL=Home.css.map */

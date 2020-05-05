@@ -1,0 +1,60 @@
+#nav.clear {
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+          box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  background-color: transparent;
+  -webkit-transition: all 0.5s ease, -webkit-transform 2s ease 500ms;
+  transition: all 0.5s ease, -webkit-transform 2s ease 500ms;
+  transition: all 0.5s ease, transform 2s ease 500ms;
+  transition: all 0.5s ease, transform 2s ease 500ms, -webkit-transform 2s ease 500ms;
+}
+
+#nav.clear span {
+  color: white;
+  font-weight: 600;
+}
+
+#nav.clear span:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#nav.clear .navbar-brand {
+  color: white;
+}
+
+#nav {
+  -webkit-box-shadow: 0px -6px 16px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px -6px 16px 0px rgba(0, 0, 0, 0.5);
+  background-color: white;
+  top: 0vh;
+  -webkit-transition: opacity 0.35s ease-in-out,  top 0.5s ease-in-out, background-color 0.35s ease, -webkit-box-shadow 0.35s ease 500ms;
+  transition: opacity 0.35s ease-in-out,  top 0.5s ease-in-out, background-color 0.35s ease, -webkit-box-shadow 0.35s ease 500ms;
+  transition: opacity 0.35s ease-in-out,  top 0.5s ease-in-out, background-color 0.35s ease, box-shadow 0.35s ease 500ms;
+  transition: opacity 0.35s ease-in-out,  top 0.5s ease-in-out, background-color 0.35s ease, box-shadow 0.35s ease 500ms,  -webkit-box-shadow 0.35s ease 500ms;
+}
+
+#nav span {
+  font-weight: bolder;
+}
+
+#nav .navbar-brand {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+#nav.hide {
+  opacity: 0;
+  top: -6vh;
+  -webkit-transition: opacity 0.35s ease-in-out,  top 0.5s ease-in-out;
+  transition: opacity 0.35s ease-in-out,  top 0.5s ease-in-out;
+}
+
+.nav-links {
+  margin-left: auto;
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+/*# sourceMappingURL=Navbar.css.map */

@@ -1,0 +1,59 @@
+#demo-form {
+    position: absolute;
+    background-color: white;
+    border-radius: 20px;
+    min-width: 300px;
+    max-width: 500px;
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    opacity: 0;
+    transform: perspective(1000px) rotate3d(110, -635, -60, 50deg) scale(0.65) translate(-80%, 0%); 
+
+    &.showFaceVerify {
+        opacity: 1;
+        transform: perspective(1000px) rotate3d(-190, 665, -60, 40deg) scale(0.85) translate(-60%, -20%);
+        transition: all 0.5s ease-out;
+    }
+
+    &.active {
+        opacity: 1;
+        transform: perspective(0px) rotate3d(0, 0, 0, 0deg) scale(1) translate(0%, 0%);
+        transition: all 0.5s ease-out;
+    }
+
+    .formInputSubmit {
+        display: block;
+        margin: auto;
+    }
+}
+
+.form-group {
+    margin-top: 15px;
+
+    label {
+        margin-bottom: 0;
+    }
+}
+
+.formInputFile {
+    display: flex;
+    flex-direction: column;
+}
+
+.formInputFileUpload {
+    display: flex;
+    flex-direction: row;
+
+    input {
+        width: 100%;
+        margin-left: 10px;
+
+        &::placeholder {
+            text-align: center;
+        }
+    }
+}
+

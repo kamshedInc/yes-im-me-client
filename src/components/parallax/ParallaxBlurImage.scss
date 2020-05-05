@@ -1,0 +1,16 @@
+.earth {
+    transform: scale(2); 
+    background-image: url('https://images.vexels.com/media/users/3/157970/isolated/preview/c156b4270aea292b9b335dd463ea17eb-earth-planet-icon-earth-icon-by-vexels.png');
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    right: -50vw;
+    bottom: -50vh;
+    background-repeat: no-repeat;
+}
+
+@media (min-wdith: 500px) {
+    .earth {
+        transform: scale(2);
+    }
+}
