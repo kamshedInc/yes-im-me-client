@@ -20,7 +20,7 @@
     "react-social-icons": "^4.1.0",
     "react-spring": "^8.0.27",
     "scrollmagic": "^2.0.7",
-    "three": "^0.115.0"
+    "three": "^0.137.0"
   },
   "scripts": {
     "start": "react-scripts start",
